@@ -1,0 +1,4 @@
+array = [1, 3, 5, 7, 9]
+array.reverse()
+array = [x + 1 for x in array]
+print(array)

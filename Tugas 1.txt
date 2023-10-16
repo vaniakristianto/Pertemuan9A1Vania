@@ -1,0 +1,5 @@
+angka = []
+for i in range(5):
+    angka.append(float(input(f"Angka ke-{i + 1}: ")))
+rata_rata = sum(angka)/5
+print("Rata-rata ke-5 angka:", rata_rata)
